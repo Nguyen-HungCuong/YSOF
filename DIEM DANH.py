@@ -9,7 +9,7 @@ import argparse
 parser = argparse.ArgumentParser(description = "This script runs automatically for the number of students studying weekly")
 
 parser.add_argument("--YSOF", "-YS", required = True, metavar ="",
-                    help = "Input the original list of students")
+                    help = "Input the original list of students in YSOF")
 
 parser.add_argument("--indir", "-i", required = True, metavar ="",
                     help = "absolute path for the xlsx file containing information about  the number of students studying")
